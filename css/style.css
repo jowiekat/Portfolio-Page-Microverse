@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    /*sets position of the navbar to be fixed*/
+    z-index: 1;
+    /* Fix navbar on top of the page*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*sets width of navbar to full width of screen*/
+    background-color: #916b82;
+    /*Sets b/groung of the navbar*/
+    height: 30px;
+    /*Set height of the navbar*/
+    padding: 20px 3px;
+    /*Adds space around the navbar elements*/
+    display: flex;
+    /*positioning property for child elements*/
+    justify-content: flex-end;
+    /*align the child elements to the right of the navbar.*/
+    align-items: center;
+    /*positions navbar elements vertically*/
+}
