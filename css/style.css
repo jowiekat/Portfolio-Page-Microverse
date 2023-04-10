@@ -22,11 +22,8 @@ body {
 #navbar a {
     color: #ffffff;
     text-decoration: none;
-    /*removes the automatic underline from the navbar elements*/
     margin: 0 40px;
-    /*top-bottom margin, right-left margin*/
     font-size: large;
-    /*set font size for navbar links*/
 }
 
 #navbar a:hover {
